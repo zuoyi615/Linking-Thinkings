@@ -1,6 +1,10 @@
 ---
-cssclasses:
-  - NoBorder
+tags:
+  - Chart
+created_at: 2026-01-14
+category:
+  - flowchart
+published:
 ---
 # 流程图
 
@@ -66,4 +70,39 @@ flowchart
 	D --> H["`***Boy***`"]
 ```
 
+## 连接线
 
+```mermaid
+flowchart
+	%% A <-.-> B // comment
+	A <-.-> B
+	C --o D
+	E -.- F
+	G x--x H
+	I --关系--> J
+	K -.->|关系| L
+	M ~~~|relate| N
+	
+
+	%% O --> Q
+	%% O --> P
+	%% R --> Q
+	%% R --> P
+	
+	O & R --> Q & P
+```
+
+```mermaid
+flowchart LR
+A1 --text--> B1 -- text1 --> C1 -.-> |text2| A1
+```
+
+```mermaid
+flowchart
+	A --> C
+	A --> D
+	B --> C
+	B --> D
+	C --> F --> H
+	A -...-> G
+```

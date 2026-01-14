@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "87dc12ede775b089",
+        "id": "6fb9a28b6d571440",
         "type": "tabs",
         "children": [
           {
-            "id": "69dcfe91b907c99c",
+            "id": "0cbfd612d6085a5a",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -16,24 +16,18 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "001 Flowchart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/001 Flowchart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"001 Flowchart\"}",
-                  "eState": "{\"scroll\":46.96913712112992}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "Mermaid.js/001 Flowchart.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "001 Flowchart"
             }
           }
         ]
@@ -86,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"category\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -116,7 +110,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -289,7 +284,7 @@
             }
           },
           {
-            "id": "6b3ba731892f172a",
+            "id": "af10ca2c5913e74d",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -306,28 +301,9 @@
               "icon": "trident-custom",
               "title": "Mermaid Toolbar"
             }
-          },
-          {
-            "id": "b0ee5743543b2f35",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       },
       {
         "id": "cc261747cbab30f2",
@@ -349,7 +325,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Mermaid.js/001 Flowchart.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -359,7 +335,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for 001 Flowchart"
             }
           },
           {
@@ -404,24 +380,24 @@
       "command-palette:Open command palette": false,
       "periodic-notes:Open today's daily note": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-git:Open Git source control": false
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "69dcfe91b907c99c",
+  "active": "0cbfd612d6085a5a",
   "lastOpenFiles": [
+    "Extras/Excalidraw/Obsidian Display Panels Sketch.excalidraw.md",
+    "Extras/Excalidraw/Template.excalidraw.md",
     "Mermaid.js/001 Flowchart.md",
+    "Mermaid.js/README.md",
+    "README.md",
     "Flight School/Bins/Excalidraw/Drawing 2026-01-14 15.12.excalidraw.md",
     "Flight School/Bins/Excalidraw",
     "Flight School/Bins",
     "Flight School",
-    "Mermaid.js/README.md",
     "Extras/Snippets/table.css.md",
     "Extras/Snippets",
     "Daily/2026-01-14.md",
     "Untitled.base",
-    "Extras/Excalidraw/Template.excalidraw.md",
-    "Extras/Excalidraw/Obsidian Display Panels Sketch.excalidraw.md",
     "Untitled.md",
     "Extras/Tags/Tags.md",
     "Extras/Tags",
@@ -439,7 +415,6 @@
     "Extras/Templates/Ideaverse Kit Note.md",
     "Extras/Templates/Template OFS Plugin.md",
     "Extras/Templates/Template OFS Hotkey.md",
-    "README.md",
     "Reading",
     "Extras/Images/excalibrain-image.png",
     "Node.js",
