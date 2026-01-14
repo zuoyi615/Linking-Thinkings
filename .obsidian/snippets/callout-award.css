@@ -1,0 +1,4 @@
+.callout[data-callout="award"] {
+    --callout-color: 250, 82, 82;
+    --callout-icon: award;
+}

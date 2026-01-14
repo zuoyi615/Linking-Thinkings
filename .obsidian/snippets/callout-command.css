@@ -1,0 +1,4 @@
+.callout[data-callout="command"] {
+    --callout-color: 134, 142, 150;
+    --callout-icon: command;
+}

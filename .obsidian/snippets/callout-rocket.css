@@ -1,0 +1,4 @@
+.callout[data-callout="rocket"] {
+    --callout-color: 34, 184, 207;
+    --callout-icon: rocket;
+}

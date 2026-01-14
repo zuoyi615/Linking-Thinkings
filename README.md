@@ -1,0 +1,1 @@
+My learning notes, ideas and thinkings are recorded and linked in obsidian vault `Linking Thinkings`

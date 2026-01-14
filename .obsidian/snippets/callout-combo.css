@@ -1,0 +1,4 @@
+.callout[data-callout="combo"] {
+    --callout-color: 18, 184, 134;
+    --callout-icon: gamepad;
+}

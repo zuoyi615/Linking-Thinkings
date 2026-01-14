@@ -1,0 +1,4 @@
+.callout[data-callout="bike"] {
+    --callout-color: 64, 192, 87;
+    --callout-icon: bike;
+}

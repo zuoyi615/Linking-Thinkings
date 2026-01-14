@@ -1,0 +1,4 @@
+.callout[data-callout="joystick"] {
+    --callout-color: 233, 124, 238;
+    --callout-icon: joystick;
+}

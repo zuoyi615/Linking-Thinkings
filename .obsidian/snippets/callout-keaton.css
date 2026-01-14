@@ -1,0 +1,4 @@
+.callout[data-callout="keaton"] {
+    --callout-color: 255, 146, 43;
+    --callout-icon: quote;
+}

@@ -1,0 +1,4 @@
+.callout[data-callout="video"] {
+    --callout-color: 151, 117, 250;
+    --callout-icon: clapperboard;
+}

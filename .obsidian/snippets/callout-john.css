@@ -1,0 +1,4 @@
+.callout[data-callout="john"] {
+    --callout-color: 233, 124, 238;
+    --callout-icon: quote;
+}
