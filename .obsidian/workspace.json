@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c95c4d820f98c1cd",
+        "id": "0e42717e96ab6739",
         "type": "tabs",
         "children": [
           {
-            "id": "1f631cf96323b559",
+            "id": "e1ad58693f36f846",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -16,132 +16,20 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Sequence",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Sequence.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sequence\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
-                },
-                {
-                  "title": "README",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/README.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"README\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-                },
-                {
-                  "title": "Flowchart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Flowchart.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Flowchart\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-                },
-                {
-                  "title": "Sequence",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Sequence.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sequence\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                },
-                {
-                  "title": "Flowchart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Flowchart.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Flowchart\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-                },
-                {
-                  "title": "Sequence",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Sequence.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sequence\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Flowchart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Flowchart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Flowchart\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Sequence",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Sequence.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sequence\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "README",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/README.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"README\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "Sequence",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Sequence.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sequence\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "README",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/README.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"README\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Flowchart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Flowchart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Flowchart\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "README",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/README.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"README\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "Sequence",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Sequence.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sequence\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Flowchart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Flowchart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Flowchart\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "Sequence",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Sequence.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"002 Sequence\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "README",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/README.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"README\"}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "Flowchart",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Flowchart.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"001 Flowchart\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":53.44235735228248}"
-                },
-                {
-                  "title": "Sequence",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Sequence.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"002 Sequence\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mermaid.js/Flowchart.md",
-                "mode": "source",
+                "file": "Mermaid.js/Sequence.md",
+                "mode": "preview",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "Flowchart"
+              "title": "Sequence"
             }
           }
         ],
@@ -229,7 +117,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280
+    "width": 280,
+    "collapsed": true
   },
   "right": {
     "id": "7a43a6c530e72e44",
@@ -420,7 +309,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mermaid.js/Flowchart.md",
+                "file": "Mermaid.js/Sequence.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -430,7 +319,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Flowchart"
+              "title": "Backlinks for Sequence"
             }
           },
           {
@@ -460,7 +349,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 495.5
+    "width": 495.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -478,11 +368,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "1f631cf96323b559",
+  "active": "e1ad58693f36f846",
   "lastOpenFiles": [
+    "Mermaid.js/Flowchart.md",
     "Mermaid.js/Sequence.md",
     "Mermaid.js/README.md",
-    "Mermaid.js/Flowchart.md",
     "Daily/2026-01-15.md",
     "Daily/2026-01-14.md",
     "Extras/Templates/Template Daily Note.md",
