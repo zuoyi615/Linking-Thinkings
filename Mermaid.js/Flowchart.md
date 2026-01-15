@@ -106,3 +106,109 @@ flowchart
 	C --> F --> H
 	A -...-> G
 ```
+
+## 子流程图
+
+```mermaid
+graph LR
+	one("single")
+	subgraph two["double"]
+		direction TB
+		B1 --> B2
+	end
+	subgraph three["triple"]
+		%% direction LR
+		direction TB
+		C1 -.-> C2 & C3
+	end
+	subgraph multiple
+		subgraph four
+			D1 -.-> D2
+		end
+		subgraph five
+			direction TB
+			E1 -.-> E2
+		end
+	end
+	six("end")
+	
+	one ---> two -.-> three --> multiple --> six
+	
+	style one fill:#bbf,stroke:#f66,stroke-width:0,color:#fff
+	style six fill:#bbf,stroke:#f66,stroke-width:0,color:#fff
+```
+
+## 事件交互
+
+```mermaid
+graph
+	A(["start"]) --> B --> C & D --> F
+	%% class A internal-link;
+	click B "https://www.google.com" "Goto github"
+	%% 在 obsidian 中，有内部链接和外部链接两种方式可用
+```
+
+在 `obsidian` 中，有**内部链接**和**外部链接**两种交互方式可用
+
+## 自定义样式
+
+```mermaid
+---
+config:
+  theme: base
+  flowchart:
+    curve: stepAfter
+---
+graph TB
+    A([Start]) --> B[Input X]
+    B --> C{"x > 5 ?"}
+    C -..-> |yes| D([End])
+    C --> |no| E[/print x/]
+    E --> F[x=x+1]:::bigger
+    F --> C
+    
+    linkStyle 0,1,5 stroke:#F00,stroke-width:0.2px
+    %% style B stroke-width: 0
+    %% style C stroke-width: 0
+    
+    classDef bigger font-size:15pt,stroke-width:10px
+    %% classDef no-border stroke-width: 0
+    %% class B,C no-border
+    %% class A,E bigger
+    %% 这是覆盖默认设置，影响所有图形
+    classDef default stroke-width: 0
+```
+
+
+```mermaid
+---
+config:
+  theme: 'base'
+  themeVariables:
+    primaryColor: '#BB2528'
+    primaryTextColor: '#fff'
+    primaryBorderColor: '#7C0000'
+    lineColor: '#F8B229'
+    secondaryColor: '#006100'
+    tertiaryColor: '#fff'
+---
+graph TD
+  A[Christmas] -->|Get money| B(Go shopping)
+  B --> C{Let me think}
+  B --> G[/Another/]
+  C ==>|One| D[Laptop]
+  C -->|Two| E[iPhone]
+  C -->|Three| F[fa:fa-car Car]
+  subgraph section[" "]
+	C
+	D
+	E
+	F
+	G
+  end
+
+```
+
+## 线条动画
+
+obsidian 内置的 mermaid 暂时不支持线条动画，可以从官网文档中查看[线条动画](https://mermaid.js.org/syntax/flowchart.html#turning-an-animation-on)

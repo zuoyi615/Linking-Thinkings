@@ -1,5 +1,5 @@
-Today my priority is:
+## Today my priority is:
 
-Something that might get in my way is:
+## Something that might get in my way is:
 
-Today I'm grateful for:
+## Today I'm grateful for:

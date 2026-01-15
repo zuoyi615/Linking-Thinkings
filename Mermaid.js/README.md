@@ -16,24 +16,24 @@ published_at: false
 
 ## Diagram Types
 
-1. [ ] Flowchart Diagram
-2. [ ] Sequence Diagram
-3. [ ] Class Diagram
-4. [ ] State Diagram
-5. [ ] Entity Relationship Diagram
+1. [x] [[Flowchart]]
+2. [ ] [[Sequence]]
+3. [ ] Class
+4. [ ] State
+5. [ ] Entity Relationship
 6. [ ] User Journey
-7. [ ] Gantt Chart Diagram
-8. [ ] Pie Chart Diagram
-9. [ ] Quadrant Chart Diagram
-10. [ ] Requirement Diagram
-11. [ ] GitGraph Diagram
-12. [ ] C4 Diagram
-13. [ ] Mindmap Diagram
-14. [ ] Timeline Diagram
-15. [ ] ZenUML Diagram
-16. [ ] Sankey Diagram
-17. [ ] XYChart Diagram
-18. [ ] Block Diagram
-19. [ ] Packet Diagram
-20. [ ] Kanban Diagram
-21. [ ] Architecture Diagram
+7. [ ] Gantt Chart
+8. [ ] Pie Chart
+9. [ ] Quadrant Chart
+10. [ ] Requirement
+11. [ ] GitGraph
+12. [ ] C4
+13. [ ] Mindmap
+14. [ ] Timeline
+15. [ ] ZenUML
+16. [ ] Sankey
+17. [ ] XYChart
+18. [ ] Block
+19. [ ] Packet
+20. [ ] Kanban
+21. [ ] Architecture

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6fb9a28b6d571440",
+        "id": "c95c4d820f98c1cd",
         "type": "tabs",
         "children": [
           {
-            "id": "0cbfd612d6085a5a",
+            "id": "1f631cf96323b559",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -16,21 +16,136 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Sequence",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Sequence.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sequence\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
+                },
+                {
+                  "title": "README",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/README.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"README\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                },
+                {
+                  "title": "Flowchart",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Flowchart.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Flowchart\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
+                },
+                {
+                  "title": "Sequence",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Sequence.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sequence\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "Flowchart",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Flowchart.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Flowchart\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
+                },
+                {
+                  "title": "Sequence",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Sequence.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sequence\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Flowchart",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Flowchart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Flowchart\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Sequence",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Sequence.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sequence\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "README",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/README.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"README\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "Sequence",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Sequence.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sequence\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "README",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/README.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"README\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Flowchart",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Flowchart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Flowchart\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "README",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/README.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"README\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "Sequence",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Sequence.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Sequence\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Flowchart",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Flowchart.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Flowchart\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "Sequence",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Sequence.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"002 Sequence\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "README",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/README.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"README\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "Flowchart",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Flowchart.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"001 Flowchart\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":53.44235735228248}"
+                },
+                {
+                  "title": "Sequence",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Sequence.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"002 Sequence\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mermaid.js/001 Flowchart.md",
-                "mode": "preview",
+                "file": "Mermaid.js/Flowchart.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "001 Flowchart"
+              "title": "Flowchart"
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -80,7 +195,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"category\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,8 +225,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -282,28 +396,9 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
-          },
-          {
-            "id": "af10ca2c5913e74d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "cc261747cbab30f2",
@@ -325,7 +420,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mermaid.js/001 Flowchart.md",
+                "file": "Mermaid.js/Flowchart.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -335,7 +430,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 001 Flowchart"
+              "title": "Backlinks for Flowchart"
             }
           },
           {
@@ -383,27 +478,29 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "0cbfd612d6085a5a",
+  "active": "1f631cf96323b559",
   "lastOpenFiles": [
+    "Mermaid.js/Sequence.md",
+    "Mermaid.js/README.md",
+    "Mermaid.js/Flowchart.md",
+    "Daily/2026-01-15.md",
+    "Daily/2026-01-14.md",
+    "Extras/Templates/Template Daily Note.md",
+    "Extras/Templates/Template Markdown Table.md",
+    "README.md",
     "Extras/Excalidraw/Obsidian Display Panels Sketch.excalidraw.md",
     "Extras/Excalidraw/Template.excalidraw.md",
-    "Mermaid.js/001 Flowchart.md",
-    "Mermaid.js/README.md",
-    "README.md",
     "Flight School/Bins/Excalidraw/Drawing 2026-01-14 15.12.excalidraw.md",
     "Flight School/Bins/Excalidraw",
     "Flight School/Bins",
     "Flight School",
     "Extras/Snippets/table.css.md",
     "Extras/Snippets",
-    "Daily/2026-01-14.md",
     "Untitled.base",
     "Untitled.md",
     "Extras/Tags/Tags.md",
     "Extras/Tags",
-    "Extras/Templates/Template Daily Note.md",
     "Daily/2026-01-13.md",
-    "Daily/2026-01-15.md",
     "Daily/2026-01-19.md",
     "Daily/2026-01-27.md",
     "Daily/2026-01-28.md",
@@ -411,7 +508,6 @@
     "Daily",
     "Mermaid.js",
     "Extras/Templates/Template Video Embed.md",
-    "Extras/Templates/Template Markdown Table.md",
     "Extras/Templates/Ideaverse Kit Note.md",
     "Extras/Templates/Template OFS Plugin.md",
     "Extras/Templates/Template OFS Hotkey.md",
@@ -421,7 +517,6 @@
     "Extras/LYT Kit Examples/LYT Mode Theme (example).md",
     "Extras/LYT Kit Examples/Zettelkasten and LYT Frameworks (example).md",
     "Flight Manual/Completing actions.md",
-    "Flight School Arrival.md",
     "Extras/Images/flight-school-2-right-sidebar-1.png",
     "Extras/Images/flight-school-2-right-sidebar-2.png",
     "Extras/Images/Screenshot 2024-03-09 at 1.50.26 AM.png",
