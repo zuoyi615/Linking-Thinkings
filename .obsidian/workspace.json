@@ -11,15 +11,20 @@
             "id": "e1ad58693f36f846",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Flowchart",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Mermaid.js/Flowchart.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Flowchart\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":178,\"ch\":36},\"to\":{\"line\":155,\"ch\":0}},\"scroll\":145.86150853413653}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
                 }
               ]
             },
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -27,13 +32,11 @@
                 "mode": "preview",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "Sequence"
             }
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
@@ -144,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mermaid.js/001 Flowchart.md",
+                "file": "Mermaid.js/Sequence.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 001 Flowchart"
+              "title": "Outline of Sequence"
             }
           },
           {
@@ -286,8 +289,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "cc261747cbab30f2",
@@ -363,9 +365,8 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "periodic-notes:Open today's daily note": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "periodic-notes:Open today's daily note": false
     }
   },
   "active": "e1ad58693f36f846",
