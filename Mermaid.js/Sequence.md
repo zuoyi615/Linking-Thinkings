@@ -32,18 +32,157 @@ published:
 ## 基础用法
 
 ```mermaid
+---
+config:
+  theme: base
+  sequence:
+    showSequenceNumbers: true
+---
 sequenceDiagram
 	Actor Manager
 	participant Alice as Leader
 	participant James
 	participant Bob
+	Note right of Bob: Get Up
+	Note over James, Bob: Hey
 	
 	Manager ->> Alice: Call a meeting, now
 	Alice ->> James: Hi James, It's Alice
 	James -->> Alice: Hello, Alice
-	Alice ->>Bob: Are you there
+	James --> James: Try Again
+	Alice -)Bob: Are you there? (async line)
 	Bob -->> Alice: I'm right there
 ```
+
+## Create and Destroy
+
+不同的组件的生命周期（lifeline）可能不一样
+
+```mermaid
+sequenceDiagram
+	participant Alice
+	participant Bob
+	
+	Alice ->> Bob: Hello Bob, how are you?
+	Bob ->> Alice: Fine, thank you. And you?
+	
+	create participant Carl
+	Alice ->> Carl: Hi Carl, What up?
+	Carl --) Alice: I'm fine, Alice
+	create actor D as Donald
+	Carl ->> D: Hi!
+	destroy Carl
+	Alice -x Carl: Bye bye Carl
+	D --) Bob: Great Job! Bob
+	destroy Bob
+	Bob --x Alice: Have a nice day
+
+```
+## Activations
+
+服务器从数据库查询
+
+```mermaid
+sequenceDiagram
+    participant Server
+    participant Database
+    
+    Server ->> Database: DB query
+    activate Database
+    Database -->> Server: DB result
+    deactivate Database
+```
+
+用户支付流程
+
+```mermaid
+sequenceDiagram
+	participant User
+	participant App as "Shopping App"
+	participant Gateway as "Payment Gateway"
+	participant Bank
+	
+	User ->> App: Select items and checkout
+	activate App
+	App ->> Gateway: Initiate Payment Request
+	activate Gateway
+	Gateway ->> Bank: Process Payment
+	activate Bank
+	Bank --> Gateway: Payment Approved
+	deactivate Bank
+	Gateway --> App: Payment Success
+	deactivate Gateway
+	App --> User: Order confirmed
+	deactivate App
+```
+
+---
+
+```mermaid
+sequenceDiagram
+	participant User
+	participant App as "Shopping App"
+	participant Gateway as "Payment Gateway"
+	participant Bank
+	
+	User ->>+ App: Select items and checkout
+	App ->>+ Gateway: Initiate Payment Request
+	Gateway ->>+ Bank: Process Payment
+	Bank -->- Gateway: Payment Approved
+	Gateway -->- App: Payment Success
+	App -->- User: Order confirmed
+```
+
+## Alternative Frame
+
+```mermaid
+sequenceDiagram
+	participant Alice
+	participant Bob
+	
+	Alice ->> Bob: Hello Bob, how are you?
+	alt is sick
+		Bob -->> Alice: not so good
+	else is well
+		Bob -->> Alice: Feel like a daisy
+	end
+	opt Extra response
+		Bob -->> Alice: Thanks for asking
+	end
+```
+
+---
+
+```mermaid
+sequenceDiagram
+	actor User as "End User"
+	participant App as Application
+	participant Server
+	participant DB as Database
+	
+	User ->> App: Request Data
+	activate App
+	
+	App ->> Server: Fetch Data
+	activate Server
+	
+	alt Data Exists?
+		Server ->> DB: Query Database
+		activate DB
+		
+		DB --) Server: Return Data
+		deactivate DB
+		
+		Server --) App: Return Data
+	else Data not exists
+		Server --x App: Terminate(Data not found)
+	end
+	deactivate Server
+	
+	App --) User: Display Data
+	deactivate App
+```
+
 
 [^1]: UML 表示[统一建模语言](https://zh.wikipedia.org/wiki/%E7%BB%9F%E4%B8%80%E5%BB%BA%E6%A8%A1%E8%AF%AD%E8%A8%80)
 	
